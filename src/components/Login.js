@@ -43,7 +43,6 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
   // Profile updated!
   const {uid,email,displayName,photoURL} = auth.currentUser;
     dispatch(addUser({uid:uid,email:email,displayName:displayName,photoURL:photoURL}))
-  navigate("/browse")
   // ...
 }).catch((error) => {
   // An error occurred
@@ -70,7 +69,6 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
     .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    navigate('/browse')
 
     // ...
   })
