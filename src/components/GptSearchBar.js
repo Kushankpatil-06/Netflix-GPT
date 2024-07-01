@@ -41,8 +41,8 @@ console.log(searchtext.current.value);
 
   const langkey = useSelector((store)=>store.config.lang)
   return (
-    <div className="pt-[22%] flex justify-center">
-      <form className=" bg-black w-1/2 grid grid-cols-12 rounded-lg " onSubmit={(e)=>(e.preventDefault())}>
+    <div className="pt-[50%] md:p-[10%] flex justify-center">
+      <form className=" bg-black w-full md:w-1/2 grid grid-cols-12 rounded-lg " onSubmit={(e)=>(e.preventDefault())}>
         <input ref={searchtext} className="p-4 m-4 rounded-lg col-span-9  " type="text" placeholder={lang[langkey].gptPlaceholder} />
         <button className="py-2 px-4 bg-red-700 col-span-3 m-4 rounded-lg text-white font-bold" 
         type="submit" onClick={handleSearchBarClick}>{lang[langkey].search} </button>

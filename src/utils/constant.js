@@ -1,10 +1,10 @@
-export const API_OPTIONS  = {
+export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer'+ process.env.REACT_APP_TMDB_KEY
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNzcwYzUxMzNkNmRmY2EwZDUwM2Q4ZGE2ZjU1YzFjMiIsIm5iZiI6MTcxOTY0Mjg1Mi4yOTQ0Miwic3ViIjoiNjY3ZjAwNjJiZTVkNjY1MDc2MWU5MmIzIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.L2txdXmnxwbgVgx57N77n_l_7FZy545k_6RqX-Zz2dU'
   }
-}; 
+};
 
 export const IMG_CDN_URL= "https://image.tmdb.org/t/p/w500"
 export const SUPPORTED_LANGUAGES = [
@@ -20,4 +20,4 @@ export const SUPPORTED_LANGUAGES = [
   {code: 'pt', name: 'Portuguese'},
 ]
 
-export const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+export const GEMINI_API_KEY= "AIzaSyA9BWM2XDKNyXHelT406dqT-cLV-QBWEgQ";

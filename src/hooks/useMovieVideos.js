@@ -12,6 +12,7 @@ const tV= useSelector((store)=>store.movies.trailerVideos)
         const dispatch = useDispatch();
 const getMovieVideo = async ()=>{
     const response = await fetch(`https://api.themoviedb.org/3/movie/${movieId}/videos?language=en-US`,API_OPTIONS)
+    // console.log(response);
     const data = await response.json()
     // console.log(data);
     const filtereddata = data.results.filter((video)=>video.type=='Trailer');

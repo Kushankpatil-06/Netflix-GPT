@@ -59,9 +59,9 @@ signOut(auth)
 });
   }
   return (
-    <div className="px-8 absolute py -2 bg-gradient-to-b from-black z-10 w-full flex justify-between">
-      <img className="rounded-lg w-44 h-[80px] mt-4  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d4nRuOmQQy6SVwlKGOFzUkJw9QF2L_7g1kLQtIZZVvQ_6pVklAqEfGQ&s" alt="" />
-      {user&&<div className="m-4 flex">
+    <div className="px-8 absolute py -2 bg-gradient-to-b from-black z-10 w-full flex flex-col md:flex-row justify-between ">
+      <img className="rounded-lg w-44 h-[80px] mt-4 mx-auto md:mx-0  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d4nRuOmQQy6SVwlKGOFzUkJw9QF2L_7g1kLQtIZZVvQ_6pVklAqEfGQ&s" alt="" />
+      {user&&<div className="m-4 flex justify-between">
         {showGptSearch && <select className="p-2 bg-slate-700 text-white m-2 rounded-lg mt-6" onChange={handleChange}>
          {SUPPORTED_LANGUAGES.map(lang => <option key={lang.code} value={lang.code}>{lang.name} </option>)}
 

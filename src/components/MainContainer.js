@@ -15,7 +15,7 @@ const{original_title,overview,id}=mainMovies;
 
 
   return (
-    <div>
+    <div className="pt-[30%] md:pt-0">
       <Videotitle title={original_title} overview={overview}/>
       <VideoBg movieId={id}/>
     </div>

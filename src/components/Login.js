@@ -87,9 +87,10 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
     <div>
         <Header/>
         <div className="absolute">
-      <img src="https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg" alt="bg-iamg" />
+      <img className="h-screen object-cover" src="https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg" alt="bg-iamg" />
     </div>
-    <form onSubmit={(e)=>e.preventDefault( )} className="absolute rounded-lg bg-black w-3/12 my-36 mx-auto right-0 left-0 text-white bg-opacity-75  ">
+    <form onSubmit={(e)=>e.preventDefault( )} 
+    className="absolute rounded-lg bg-black w-full md:w-3/12 my-36 mx-auto right-0 left-0 text-white bg-opacity-75  ">
         <h1 className="font-bold text-3xl py-4 m-4">{SigninForm? "Sign In" : "Sign Up"}</h1>
         {!SigninForm&&<input type="text" ref={name} placeholder="Name" className="p-4 rounded-lg w-7/12 m-4 w-full bg-gray-700" />}
         <input ref={email} type="text" placeholder="Email address" className="p-4 rounded-lg w-7/12 m-4 w-full bg-gray-700" />
