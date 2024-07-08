@@ -1,71 +1,38 @@
-[# Getting Started with Create React App
+# Movie Recommendation Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a comprehensive web application designed to recommend movies and provide detailed information about them. It showcases my ability to integrate various APIs and utilize modern web development technologies.
 
-## Available Scripts
+## Features Implemented
 
-In the project directory, you can run:
+- 🔒 **Authentication:** Secure login using Firebase Authentication.
+- 🎬 **Movie Data:** Fetching movie data from the TMDB API.
+- 📽️ **Movie Recommendation:** Recommending movies using advanced algorithms.
+- 🔍 **GPT Search:** Search functionality powered by GPT.
+- 📱 **Responsive Design:** Ensuring a seamless experience across all devices.
+- 🌐 **Multi-language Support:** Supporting multiple languages for a broader audience.
+- 🔐 **Secure Authentication Login:** Enhanced security for user login.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⚛️ **React.js:** A JavaScript library for building user interfaces.
+- 🎨 **Tailwind CSS:** A utility-first CSS framework for styling.
+- 🔥 **Firebase Authentication:** For handling user authentication.
+- 🔄 **Redux:** For state management across the application.
+- 📱 **Responsive Design:** Ensuring the application is responsive on various devices.
+- 🎨 **Material UI:** For a sleek and modern user interface.
+- ✅ **Custom Hooks:** To encapsulate reusable logic.
+- ✅ **Custom Shimmer:** For improved loading experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- ⚛️ **React**
+- 🔄 **Redux**
+- 🎨 **Tailwind CSS**
+- 🔥 **Firebase Authentication**
+- ✅ **GitHub**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## APIs Used
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-](https://github.com/Kushankpatil-06/Netflix-GPT.git)
+- 🎥 **TMDB API:** For fetching movie data.
+- 🧠 **OpenAI API:** For providing movie recommendations.
+- 🔎 **Gemini API:** For implementing movie search functionality.
